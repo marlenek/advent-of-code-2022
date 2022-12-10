@@ -6,8 +6,7 @@ from solutions.base import Day
 
 class Day5(Day):
 
-    def day(self):
-        return 5
+    day = 5
 
     def part_1(self, input_file):
         list_of_stacks, instructions = self._read_input(input_file)

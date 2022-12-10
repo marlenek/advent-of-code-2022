@@ -2,9 +2,7 @@ from .base import Day
 
 
 class Day1(Day):
-
-    def day(self):
-        return 1
+    day = 1
 
     def part_1(self, input_file):
         calories = self._count_calories(input_file)

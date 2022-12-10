@@ -3,8 +3,7 @@ from solutions.base import Day
 
 class Day2(Day):
 
-    def day(self):
-        return 2
+    day = 2
 
     def part_1(self, input_file):
         input = self._read_input(input_file)

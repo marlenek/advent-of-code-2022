@@ -5,8 +5,7 @@ from .base import Day
 
 class Day8(Day):
 
-    def day(self):
-        return 8
+    day = 8
 
     def part_1(self, input_file):
         grid, grid_size = self._read_grid(input_file)

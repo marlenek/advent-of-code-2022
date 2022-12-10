@@ -35,8 +35,7 @@ class DirectoryTree(object):
 
 class Day7(Day):
 
-    def day(self):
-        return 7
+    day = 7
 
     def part_1(self, input_file):
         tree = self._read_input(input_file)

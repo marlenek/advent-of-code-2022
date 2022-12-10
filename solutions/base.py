@@ -1,10 +1,8 @@
 import abc
 
-class Day(abc.ABC):
 
-    @abc.abstractmethod
-    def day(self) -> int:
-        pass
+class Day(abc.ABC):
+    day: int
 
     @abc.abstractmethod
     def part_1(self, input_file) -> None:

@@ -3,8 +3,7 @@ from .base import Day
 
 class Day6(Day):
 
-    def day(self):
-        return 6
+    day = 6
 
     def part_1(self, input_file):
         return self._tuning_trouble(input_file, 4)
