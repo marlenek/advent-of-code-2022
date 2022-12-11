@@ -1,7 +1,7 @@
 import click
 
 import solutions
-
+import time
 
 @click.command()
 @click.option('--day', default=9, help='Day(s) to run. ex.: 1')

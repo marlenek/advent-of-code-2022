@@ -8,10 +8,7 @@ class Point(object):
         self.y = y
 
     def is_touching(self, other):
-        if abs(self.x - other.x) > 1 or abs(self.y - other.y) > 1:
-            return False
-        else:
-            return True
+        return not (abs(self.x - other.x) > 1 or abs(self.y - other.y) > 1)
 
     def abs_distance_x(self, other):
         return abs(self.x - other.x)
